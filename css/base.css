@@ -31,3 +31,76 @@ body {
     background-size: cover;
     background-color: #0e4740;
 }
+
+.navbar_all {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 210;
+    padding: 0 7%;
+    position: sticky;
+    top: 0;
+    z-index: 454;
+    padding-block: 5px;
+    width: 100%;
+    background-color: #fff;
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+   
+}
+
+
+
+.mobile a {
+    padding: 15px;
+    color: #000;
+    /* text-transform: uppercase; */
+}
+
+.mobile a:hover {
+    color: #0e4740;
+}
+
+#toggleButton {
+
+    background-color: transparent;
+    border: none;
+}
+
+#toggleButton i{
+    color: #0e4740;
+    font-size: 20px;
+}
+
+.mobile {
+    display: none;
+}
+
+.mobile {
+    position: absolute;
+    top: 106px;
+    z-index: 4554;
+    right: 0;
+    width: 250px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    display: none;
+    height: 100vh;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.mobile a {
+    border-bottom: 2px dashed #0e4740;
+    width: 100%;
+    padding: 0 10%;
+    padding-block: 20px;
+}
+
+footer{
+    width: 100%;
+    background-color: #0e4740;
+    padding-block: 40px;
+    text-align: center;
+    color: #fff;
+    margin-top: 50px;
+}

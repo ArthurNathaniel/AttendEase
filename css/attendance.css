@@ -1,0 +1,64 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px auto;
+}
+table input{
+    border: none;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #0e4740;
+    color: #fff;
+    font-weight: bold;
+}
+
+.employee-profile img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+table button {
+    background-color: #0e4740;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+
+
+
+.message {
+    color: green;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.attendance_all {
+    margin-top: 50px;
+    padding: 0 7%;
+}
+
+.status {
+    color: green;
+    font-weight: bold;
+}
+
+.status.error {
+    color: red;
+}
+img{
+    width: 60px;
+}
